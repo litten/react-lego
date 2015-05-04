@@ -1,0 +1,100 @@
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.fs12{
+	font-size: 12px;
+}
+.grayc{
+	color: #ccc;
+}
+.gray9{
+	color: #999;
+}
+.gray6{
+	color: #666;
+}
+.p10{
+	padding: 10px;
+}
+.plr10{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.mt10{
+	margin-top: 10px;
+}
+.mb10{
+	margin-bottom: 10px;
+}
+.mlr10{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+/*.justify{
+	@extend %justify;
+}*/
+.sup-wrap{
+    position: relative;
+    .sup-num {
+        position: absolute;
+        top: -4px;
+        right: -14px;
+        border-radius: 10px;
+        min-width: 17px;
+        color: #fff;
+        font-size: 12px;
+        background-color: @orange-300;
+        line-height: 1.4;
+        text-align: center;
+        padding: 0 4px;
+        transform: scale(0.9);
+    }
+    .sup-circle {
+        position: absolute;
+        top: -2px;
+        right: -4px;
+        width: 8px;
+        height: 8px;
+        border-radius: 8px;
+        background-color: @orange-300;
+    }
+}
+.guide-title{
+	margin: 10px 0 0 10px;
+	font-weight: bold;
+	font-size: 16px;
+}
+/*.ellipsis{
+	@extend %ellipsis;
+}*/
+.full-width{
+	width: 100%;
+	box-sizing: border-box;
+}
+.pos-s{
+	position: static !important;
+}
+
+// overlay
+/*.cm-overlay{
+	display: none;
+	background: $overlayBg;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: $zIndexOverlay;
+	&.active{
+		display: block;
+	}
+	&.cm-overlay--transparent{
+		background:rgba(0,0,0,0);
+	}
+}*/
+
+
+@import "header.less";
